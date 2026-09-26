@@ -1,0 +1,26 @@
+.error {
+
+    &__wrapper {
+        position: relative;
+        padding: 40px;
+    }
+
+    &__text {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    &__close {
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        height: 24px;
+        justify-content: center;
+        padding: 0;
+        width: 24px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+}
